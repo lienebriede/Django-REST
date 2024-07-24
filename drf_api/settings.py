@@ -39,7 +39,9 @@ ALLOWED_HOSTS = [
     '8000-lienebriede-djangorest-8p0wqm4oa41.ws.codeinstitute-ide.net',
 ]
 
-
+CSRF_TRUSTED_ORIGINS = [
+    'https://8000-lienebriede-djangorest-8p0wqm4oa41.ws.codeinstitute-ide.net',
+]
 # Application definition
 
 INSTALLED_APPS = [
