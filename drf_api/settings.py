@@ -37,6 +37,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '8000-lienebriede-djangorest-8p0wqm4oa41.ws.codeinstitute-ide.net',
+    '127.0.0.1',
 ]
 
 CSRF_TRUSTED_ORIGINS = [
